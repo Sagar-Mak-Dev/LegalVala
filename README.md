@@ -1,46 +1,144 @@
-# Getting Started with Create React App
+# LegalVala 🏛️
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**LegalVala** is a business consultancy and compliance services website built to help businesses with legal, tax, and regulatory compliance needs.
 
-## Available Scripts
+🔗 **Live Website:** [https://www.legalvala.com](https://www.legalvala.com)
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 📌 About
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+LegalVala provides an online platform where users can learn about and access business consultancy, legal compliance, and registration-related services in a simple, modern interface.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+---
 
-### `npm test`
+## 🛠️ Tech Stack
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+This project is built using the following technologies:
 
-### `npm run build`
+- **[React.js](https://react.dev/)** — Frontend library for building the user interface (built with Create React App)
+- **[JavaScript (ES6+)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)** — Core scripting language
+- **[Tailwind CSS](https://tailwindcss.com/)** — Utility-first CSS framework for styling
+- **[Node.js](https://nodejs.org/)** — JavaScript runtime for backend/build tooling
+- **[Supabase](https://supabase.com/)** — Backend-as-a-Service used for database and backend functionality
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## ✨ Features
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Responsive, mobile-friendly design
+- Modern UI built with Tailwind CSS
+- Business consultancy & compliance service listings
+- Backend data handling via Supabase
+- Fast single-page application (SPA) experience with React
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## 📂 Project Structure
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```
+legalvala/
+├── public/              # Static assets
+├── src/
+│   ├── components/      # Reusable React components
+│   ├── pages/            # Page-level components
+│   ├── assets/           # Images, icons, etc.
+│   ├── App.js             # Root component
+│   └── index.js           # Entry point
+├── package.json
+└── tailwind.config.js
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+> Note: Adjust this structure section to match your actual folder layout if it differs.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+---
 
-## Learn More
+## ⚙️ Installation & Setup
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Follow these steps to run the project locally:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/your-username/legalvala.git
+   cd legalvala
+   ```
+
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
+
+3. **Set up environment variables**
+
+   Create a `.env` file in the root directory and add your Supabase credentials:
+   ```
+   REACT_APP_SUPABASE_URL=your_supabase_url
+   REACT_APP_SUPABASE_ANON_KEY=your_supabase_anon_key
+   ```
+
+4. **Run the development server**
+   ```bash
+   npm start
+   ```
+
+   The app will run at `http://localhost:3000`
+
+5. **Build for production**
+   ```bash
+   npm run build
+   ```
+
+---
+
+## 🚀 Deployment
+
+This project is deployed on a custom web hosting service (e.g., Hostinger). To deploy:
+
+1. Run `npm run build` to generate the production build.
+2. Upload the contents of the `build/` folder to your hosting provider's public/root directory.
+3. Configure your domain to point to the hosting server.
+
+---
+
+## 🗄️ Database (Supabase)
+
+This project uses **Supabase** as its backend and database solution, providing:
+- PostgreSQL database
+- Authentication (if used)
+- Real-time data APIs
+
+Make sure to configure your Supabase project and update the environment variables accordingly.
+
+---
+
+## 📸 Screenshots
+
+> Add screenshots of your website here for better presentation:
+```markdown
+![Homepage](./screenshots/homepage.png)
+```
+
+---
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!  
+Feel free to check the [issues page](https://github.com/your-username/legalvala/issues).
+
+---
+
+## 📄 License
+
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
+## 📞 Contact
+
+For any queries regarding this project, feel free to reach out:
+
+- **Website:** [www.legalvala.com](https://www.legalvala.com)
+
+---
+
+⭐ If you found this project helpful, don't forget to give it a star on GitHub!
